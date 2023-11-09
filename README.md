@@ -6,7 +6,7 @@
 - Helix is spatial and is defined by its radius and step (see the figure below). It takes $2\pi$ in parametric space to make a round, i.e. any point on helix satisfies the condition $C(t + 2\pi) = C(t) +
   {0, 0, step}$.
 
-<img src="/home/j/.config/Typora/typora-user-images/image-20231109212821083.png" alt="image-20231109212821083" style="zoom:50%;" />
+<img src="img/helix.png" alt="helix" style="zoom:50%;" />
 
 ## Build
 
