@@ -34,7 +34,7 @@ int main() {
         switch (curveType) {
             case 0:
                 curve = new Circle(radius);
-                if (Circle* circle = dynamic_cast<Circle*>(curve)) {
+                if (Circle* circle = dynamic_cast <Circle*> (curve)) {
                     circles.push_back(circle);
                 }
                 break;
@@ -59,11 +59,11 @@ int main() {
         std::vector<double> derivative = curve->getDerivative(t);
 
         std::cout << "Curve Type: ";
-        if (dynamic_cast<Circle*>(curve)) {
+        if (dynamic_cast <Circle*> (curve)) {
             std::cout << "Circle" << std::endl;
-        } else if (dynamic_cast<Ellipse*>(curve)) {
+        } else if (dynamic_cast <Ellipse*> (curve)) {
             std::cout << "Ellipse" << std::endl;
-        } else if (dynamic_cast<Helix*>(curve)) {
+        } else if (dynamic_cast <Helix*> (curve)) {
             std::cout << "Helix" << std::endl;
         }
 
