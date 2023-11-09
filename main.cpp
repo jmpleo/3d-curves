@@ -8,9 +8,6 @@
 #include <algorithm>
 #include <random>
 
-// Ellipse class derived from Curve3D
-// 3D Helix class derived from Curve3D
-// Function to generate random parameters for curves
 double getRandomParameter(double min, double max)
 {
     static std::random_device rd;

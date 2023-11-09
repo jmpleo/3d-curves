@@ -1,3 +1,5 @@
 build
 3d-curves/build
 3d-curves/lib
+compile_commands.json
+.cache
